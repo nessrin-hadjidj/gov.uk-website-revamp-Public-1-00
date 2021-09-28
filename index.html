@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gov.co.uk</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav id="sideNav" class="sideNav">
+        <button class="closeBtn" onclick="closeNav()">&times;</button>
+        <h2 style="margin: 10px;">Services and Information</h2>
+       <ol>
+           <li>Benefits</li>
+           <li>Births, deaths, marriages and care</li>
+           <li>Business and self-employed</li>
+           <li>Childcare and parenting</li>
+            <li>Citizenship and living in the UK</li>
+            <li>Crime, justice and the law</li>
+            <li>Disabled peole</li>
+            <li>Driving and transport</li>
+            <li>Education and learning</li>
+            <li>Employing people</li>
+            <li>Environment and countryside</li>
+            <li>Housing and local</li>
+            <li>Money and tax</li>
+            <li>Passports, travel and living abroad</li>
+            <li>Visas and immigration</li>
+            <li>Working, jobs and pensions</li>
+       </ol> 
+    </nav>
+    <span onclick="openNav()" id="openNav"><i class="fas fa-2x fa-bars"></i></span>
+    <div id="main">
+    <header>
+        <h1>
+            <i class="fas fa-crown"></i>GOV.UK
+        </h1>
+        <a href="#"><span style=" text-decoration:underline; font-size: large;">Coronavirus(COVID-19)</span> | <span style="font-weight: 500;">Guidance and support</span></a>
+        
+    </header>    
+        <div class="searchSection">
+            <h2>Welcome to GOV.UK</h2>
+            <P>the best place to fine government services and information<br><span style="font-weight: bolder;">Simpler, clearer, faster</span></P>
+            <div class="search">
+                <input type="search" name="search" id="search" placeholder="Search on GOV.UK" >
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="popularSearches"></div>
+
+</div>
+    <script src="/app.js"></script>
+</body>
+</html>
